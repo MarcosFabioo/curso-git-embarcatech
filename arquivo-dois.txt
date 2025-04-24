@@ -1,0 +1,17 @@
+mkdir curso-git
+
+cd curso-git
+
+git init –initial-branch=main
+
+git config user.name “Marcos Fábio”
+
+git config user.email “mfabiosilva49@gmail.com”
+
+git add arquivo-um.txt
+
+git commit -m “meu primeiro commit”
+
+git remote add origin-github https://github.com/MarcosFabioo/curso-git-embarcatech.git
+
+git push -u origin-github main
